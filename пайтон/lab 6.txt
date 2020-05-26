@@ -1,0 +1,90 @@
+class Navpaki() :
+    def __init__(a) :
+        a.value = 25
+
+    def __add__(a, value) :
+        print (a.value - 2)
+
+    def __sub__(a, value) :
+        print (a.value + 2)
+
+    def __mul__(a, value) :
+        print (a.value / 2)
+
+    def __div__(a, value) :
+        print (a.value * 2)
+
+
+value= Navpaki()
+value.__add__(25)
+value= Navpaki()
+value.__sub__(25)
+value= Navpaki()
+value.__mul__(25)
+value= Navpaki()
+value.__div__(25)
+
+
+
+
+
+class Vehicle():
+
+    def init(self, typ, make, model, color, year, engine):
+        self.typ = typ
+        self.make = make
+        self.model = model
+        self.color = color
+        self.year = year
+        self.engine = engine
+
+    def vehicle_print(self):
+            print('Vehicle Type: ' + str(self.typ))
+            print('Make: ' + str(self.make))
+            print('Model: ' + str(self.model))
+            print('Color: ' + str(self.color))
+            print('Year: ' + str(self.year))
+            print('Engine: ' + str(self.engine))
+
+class Car(Vehicle):
+
+    def init(self, vm, *args):
+        self.vm = vm
+        Vehicle.__init__(self, *args)
+
+    def vehicle_print(self):
+        Vehicle.vehicle_print(self)
+        print('Steam engine power (at): ' + str(self.vm))
+        print('------------------------------------------')
+        
+class Electric(Vehicle):
+
+    def init(self, energy_storage, *args):
+        self.energy_storage = energy_storage
+        Vehicle.__init__(self, *args)
+
+    def vehicle_print(self):
+        Vehicle.vehicle_print(self)
+        print('Engine power(Kw): ' + str(self.energy_storage))
+        print('------------------------------------------')
+
+class Rocket(Vehicle):
+
+    def init(self, kw, *args):
+        self.kw = kw
+        Vehicle.__init__(self, *args)
+
+    def vehicle_print(self):
+        Vehicle.vehicle_print(self)
+        print('Engine power(Kw): ' + str(self.kw))
+
+
+
+Uaz = Car(30, 'SUV', 'Uaz', 'X5', 'silver', 2000, 'steam engine')
+Uaz.vehicle_print()
+
+Mers = Electric(85, 'Sport', 'Mers', 'Model S', 'red', 2009, 'internal combustion')
+Mers.vehicle_print()
+
+Rok = Rocket(1000, 'SpaceX', 'Rok', 'Model q', 'green', 2019, 'electric motor')
+Rok.vehicle_print()
