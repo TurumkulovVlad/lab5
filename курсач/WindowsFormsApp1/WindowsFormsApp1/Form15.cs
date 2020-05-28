@@ -37,5 +37,10 @@ namespace WindowsFormsApp1
                 Hide();
             }
         }
+
+        private void замовлення_ЗапросBindingSource_CurrentChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

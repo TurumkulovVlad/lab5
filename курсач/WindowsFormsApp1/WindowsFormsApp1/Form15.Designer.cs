@@ -74,6 +74,7 @@
             // 
             this.замовлення_ЗапросBindingSource.DataMember = "Замовлення Запрос";
             this.замовлення_ЗапросBindingSource.DataSource = this._123DataSet;
+            this.замовлення_ЗапросBindingSource.CurrentChanged += new System.EventHandler(this.замовлення_ЗапросBindingSource_CurrentChanged);
             // 
             // замовлення_ЗапросTableAdapter
             // 

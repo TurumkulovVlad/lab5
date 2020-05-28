@@ -1,0 +1,14 @@
+D:\NUWM\Оптимізація обчислень\OrleansHelloWorld\Grains\bin\Debug\netstandard2.0\GrainInterfaces.dll
+D:\NUWM\Оптимізація обчислень\OrleansHelloWorld\Grains\obj\Debug\netstandard2.0\Grains.csprojAssemblyReference.cache
+D:\NUWM\Оптимізація обчислень\OrleansHelloWorld\Grains\obj\Debug\netstandard2.0\Grains.AssemblyInfoInputs.cache
+D:\NUWM\Оптимізація обчислень\OrleansHelloWorld\Grains\obj\Debug\netstandard2.0\Grains.AssemblyInfo.cs
+D:\NUWM\Оптимізація обчислень\OrleansHelloWorld\Grains\bin\Debug\netstandard2.0\Grains.deps.json
+D:\NUWM\Оптимізація обчислень\OrleansHelloWorld\Grains\bin\Debug\netstandard2.0\Grains.dll
+D:\NUWM\Оптимізація обчислень\OrleansHelloWorld\Grains\bin\Debug\netstandard2.0\Grains.pdb
+D:\NUWM\Оптимізація обчислень\OrleansHelloWorld\Grains\bin\Debug\netstandard2.0\GrainInterfaces.pdb
+D:\NUWM\Оптимізація обчислень\OrleansHelloWorld\Grains\obj\Debug\netstandard2.0\Grains.orleans.g.args.txt
+D:\NUWM\Оптимізація обчислень\OrleansHelloWorld\Grains\obj\Debug\netstandard2.0\Grains.orleans.g.cs
+D:\NUWM\Оптимізація обчислень\OrleansHelloWorld\Grains\obj\Debug\netstandard2.0\Grains.csproj.CoreCompileInputs.cache
+D:\NUWM\Оптимізація обчислень\OrleansHelloWorld\Grains\obj\Debug\netstandard2.0\Grains.csproj.CopyComplete
+D:\NUWM\Оптимізація обчислень\OrleansHelloWorld\Grains\obj\Debug\netstandard2.0\Grains.dll
+D:\NUWM\Оптимізація обчислень\OrleansHelloWorld\Grains\obj\Debug\netstandard2.0\Grains.pdb
